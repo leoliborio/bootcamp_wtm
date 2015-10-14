@@ -11,17 +11,17 @@ peso = gets.chomp.to_f
 imc = (peso / (altura**2)).round(2)
 
 case imc
-when 0..17 then result = "Muito abaixo do peso"
+when 0..16.99 then result = "Muito abaixo do peso"
 
-when 17..18.5 then result = "Abaixo do peso"
+when 17..18.49 then result = "Abaixo do peso"
 
-when 18.5..25.0 then result = "Peso normal"
+when 18.5..24.99 then result = "Peso normal"
 
-when 25.0..30.0 then result = "Acima do peso"
+when 25.0..29.99 then result = "Acima do peso"
 
-when 30.0..35 then result = "Obesidade I"
+when 30.0..34.99 then result = "Obesidade I"
 
-when 35..40 then result = "Obesidade II (severa)"
+when 35..39.99 then result = "Obesidade II (severa)"
 
 else 
 	result = "Obesidade III (mórbida)"	
