@@ -9,7 +9,7 @@ while continue == true  do
 
 	if word == word.reverse
 
-		puts "Sim, #{word} é uma palavra palíndroma."
+		puts "Sim, #{word} é uma palavra palíndroma!"
 
 	else
 
@@ -25,7 +25,7 @@ while continue == true  do
 		continue = false
 		puts "Até a próxima!"
 	end
-	
+
 end
 
 
