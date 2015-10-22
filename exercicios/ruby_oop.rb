@@ -36,3 +36,5 @@ for pessoa in pessoas
 end
 
 puts "Até a próxima =D"
+
+pessoas["Leonardo"].profissao
